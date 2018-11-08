@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[InsertUDT]
 	@param [dbo].[userdefinedtabletype] readonly
-WITH RECOMPILE
+	WITH RECOMPILE
 AS
 	INSERT INTO UDTTestTable (ID, Name)
 	SELECT ID, Name

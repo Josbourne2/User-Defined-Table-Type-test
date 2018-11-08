@@ -63,4 +63,7 @@
     <Build Include="UDTTestTable.sql" />
     <Build Include="InsertUDT.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="UDTTest.publish.xml" />
+  </ItemGroup>
 </Project>
